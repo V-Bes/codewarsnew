@@ -2,6 +2,7 @@ public class FindUniqClass {
 
     public static void main(String[] args) {
         System.out.println(findUniq(new double[]{1,1,2,1,1}));
+        System.out.println(encode("(( @"));
     }
 
     public static double findUniq(double arr[]) {
@@ -15,4 +16,33 @@ public class FindUniqClass {
         }
         return arr[0];
     }
+
+   // public class DuplicateEncoder {
+        static String encode(String word){
+            char[] charMas = word.toCharArray();
+            char[] result = new char[charMas.length];
+            for (int i = 0; i < charMas.length; i++) {
+                result[i] = '(';
+                for (int j = 0; j < charMas.length; j++) {
+                    if (i != j && Character.toLowerCase(charMas[i]) == Character.toLowerCase(charMas[j])) {
+                        result[i] = ')';
+                        break;
+                    }
+                }
+            }
+
+            return String.valueOf(result);
+        }
+
+
+    //}
+
+}
+
+class Kata {
+
+    static String[] joust(String[] listField, int vKnightLeft, int vKnightRight) {
+        return new String[] {};
+    }
+
 }
