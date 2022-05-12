@@ -4,4 +4,6 @@
 # Kingdoms Ep1: Jousting (JoustClass)
 ###### You are given the array / tuple (listField) of two strings of equal length. Each the string contains "$->" and "<-P"(knight with lance) respectively. The knights move towards each other and they can only take simultaneous steps of length vKnightLeft and vKnightRight. When the index of ">" is equal or more than the index of "<", return the array / tuple representing the knights' positions.
 
+# Split Strings (StringSplitClass)
+###### Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_').
 
