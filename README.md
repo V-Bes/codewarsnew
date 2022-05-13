@@ -7,3 +7,5 @@
 # Split Strings (StringSplitClass)
 ###### Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_').
 
+# Roman Numerals Encoder (ConversionClass)
+###### Create a function taking a positive integer as its parameter and returning a string containing the Roman Numeral representation of that integer.
